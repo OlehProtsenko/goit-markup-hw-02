@@ -26,7 +26,7 @@
      font-size: 18px;
      font-style: normal;
      font-weight: 800;
-     line-height: 1, 17;
+     line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
  }
@@ -52,7 +52,7 @@
      color: var(--slate, #435549);
      font-style: normal;
      font-weight: 400;
-     line-height: 1, 5;
+     line-height: 1.5;
      letter-spacing: 0.32px;
 
 
@@ -98,7 +98,7 @@
  }
 
  .button-filtre-withe {
-     color: var(--white #FFF);
+     color: var(--white, #FFF);
 
  }
 
