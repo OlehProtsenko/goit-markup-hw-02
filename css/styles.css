@@ -84,7 +84,7 @@
 
  .navigation-item-link:hover,
  .navigation-item-link:focus {
-     color: var(--ocean);
+     color: #404bbf;
 
  }
 
@@ -144,23 +144,21 @@
 
  .button:hover,
  .button:focus {
-    background-color: #404BBF;
+     background-color: #404BBF;
  }
 
  .button-filtre {
      color: var(--iris);
      font-style: normal;
-     font-weight: 500;
+
      letter-spacing: 0.64px;
-     font-size: 16px;
-     font-family: "Roboto", sans-serif;
-     line-height: 1.5;
-     letter-spacing: 0.04em;
-     background: var(--cloud);
+
+     background-color: #F4F4FD;
      cursor: pointer;
  }
 
- .button-filtre:hover {
+ .button-filtre:hover,
+ .button-filtre:focus {
      color: #FFFFFF;
      background-color: #404BBF;
  }
@@ -185,7 +183,7 @@
      font-weight: 500;
      line-height: 1.2;
      letter-spacing: 0.4px;
-     
+
  }
 
  .benefits-list-desc {}
@@ -211,7 +209,7 @@
 
  /* Team section */
  .team-section {
-     background-color: #F4F4FD
+     background-color: #F4F4FD;
  }
 
  .team-title {
@@ -223,13 +221,14 @@
      letter-spacing: 0.72px;
      text-transform: capitalize;
      text-align: center;
+
  }
 
- .team-list {
-    background-color: #FFFFFF;
- }
+ .team-list {}
 
- .team-list-item {}
+ .team-list-item {
+     background-color: #FFFFFF;
+ }
 
  .team-img {}
 
