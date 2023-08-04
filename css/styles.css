@@ -82,7 +82,9 @@
 
  }
 
- .navigation-item-link:hover,
+ .navigation-item-link:hover{
+    color: #404bbf;
+ }
  .navigation-item-link:focus {
      color: #404bbf;
 
@@ -150,11 +152,15 @@
  .button-filtre {
      color: var(--iris);
      font-style: normal;
-
-     letter-spacing: 0.64px;
-
+     cursor: pointer;
      background-color: #F4F4FD;
      cursor: pointer;
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
  }
 
  .button-filtre:hover,
