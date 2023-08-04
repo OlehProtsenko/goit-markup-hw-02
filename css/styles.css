@@ -83,7 +83,7 @@
  }
 
  .navigation-item-link:hover,
- .navigation-item-link:active {
+ .navigation-item-link:focus {
      color: var(--ocean);
 
  }
@@ -101,7 +101,7 @@
 
  }
 
- .addres {
+ .address {
      font-style: normal;
  }
 
