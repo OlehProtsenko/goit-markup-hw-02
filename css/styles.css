@@ -82,11 +82,9 @@
 
  }
 
- .navigation-item-link:hover{
-    color: #404bbf;
- }
+ .navigation-item-link:hover,
  .navigation-item-link:focus {
-     color: #404bbf;
+    color: #404bbf;
 
  }
 
@@ -107,8 +105,9 @@
      font-style: normal;
  }
 
- .addres-contacts:hover {
-     color: var(--ocean);
+ .addres-contacts:hover,
+ .addres-contacts:focus {
+     color: #404bbf;
  }
 
 
