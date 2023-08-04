@@ -82,7 +82,8 @@
 
  }
 
- .navigation-item-link:hover {
+ .navigation-item-link:hover,
+ .navigation-item-link:active {
      color: var(--ocean);
 
  }
@@ -98,6 +99,10 @@
      letter-spacing: 0.32px;
 
 
+ }
+
+ .addres {
+     font-style: normal;
  }
 
  .addres-contacts:hover {
@@ -134,10 +139,10 @@
      line-height: 1.5;
      letter-spacing: 0.04em;
      cursor: pointer
-
  }
- .button:hover{
-    color: var(--ocean);
+
+ .button:hover {
+     color: var(--ocean);
  }
 
  .button-filtre {
@@ -152,9 +157,10 @@
      background: var(--cloud);
      cursor: pointer;
  }
- .button-filtre:hover{
-    color: #FFFFFF;
-    background-color: #404BBF;
+
+ .button-filtre:hover {
+     color: #FFFFFF;
+     background-color: #404BBF;
  }
 
  .button-filtre-withe {
@@ -201,7 +207,7 @@
 
  /* Team section */
  .team-section {
-    background-color: #F4F4FD
+     background-color: #F4F4FD
  }
 
  .team-title {
@@ -240,11 +246,12 @@
      line-height: 1.2;
      letter-spacing: 0.02em;
  }
- .card-list-desc{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
+
+ .card-list-desc {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--slate);
 
  }
 
@@ -252,7 +259,7 @@
  /* footer */
  .footer {
      background: var(--navyblue);
-     
+
  }
 
  .link-logo {}
