@@ -126,6 +126,7 @@
      font-weight: 700;
      line-height: 1.07;
      letter-spacing: 1.12px;
+     text-align: center;
  }
 
  .button {
@@ -141,8 +142,9 @@
      cursor: pointer
  }
 
- .button:hover {
-     color: var(--ocean);
+ .button:hover,
+ .button:focus {
+    background-color: #404BBF;
  }
 
  .button-filtre {
@@ -183,6 +185,7 @@
      font-weight: 500;
      line-height: 1.2;
      letter-spacing: 0.4px;
+     
  }
 
  .benefits-list-desc {}
@@ -197,6 +200,7 @@
      line-height: 1.11;
      letter-spacing: 0.72px;
      text-transform: capitalize;
+     text-align: center;
  }
 
  .progres-list {}
@@ -218,9 +222,12 @@
      line-height: 1.11;
      letter-spacing: 0.72px;
      text-transform: capitalize;
+     text-align: center;
  }
 
- .team-list {}
+ .team-list {
+    background-color: #FFFFFF;
+ }
 
  .team-list-item {}
 
