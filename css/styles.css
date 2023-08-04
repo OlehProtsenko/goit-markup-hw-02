@@ -1,61 +1,107 @@
  /* Base style */
  body {
-     font-family: Roboto;
+     font-family: Roboto, sans-serif;
      font-size: 16px;
      font-style: normal;
      font-weight: 400;
      line-height: 1.5;
      letter-spacing: 0.32px;
-     color: var(--slate, #434455);
+     color: var(--slate);
      background-color: #FFF;
+ }
+
+ :root {
+
+     --primary-font: "Roboto", sans-serif;
+     --title-font: "Raleway", sans-serif;
+     /* colors */
+     --iris: #4D5AE5;
+     --ocean: #404BBF;
+     --navyblue: #2E2F42;
+     --green: #31D0AA;
+     --slate: #434455;
+     --lightslate: #8E8F99;
+     --cornflower: #E7E9FC;
+     --cloud: #F4F4FD;
+     --navybluemodal: #2E2F42;
+     --grey: #2E2F42;
+     --white: #FFFFFF;
+     --dairy: #FCFCFC;
+
+
+
+
  }
 
  .section {}
 
- .link {}
+ .link {
+     text-decoration: none;
 
- .list {}
+ }
+
+ .list {
+     list-style: none;
+ }
 
  /* header style */
  .heder {}
 
  /* LOGO */
  .logo {
-     color: var(--iris, #4D5AE5);
-     font-family: Raleway;
+     color: var(--iris);
+     font-family: Raleway, sans-serif;
      font-size: 18px;
      font-style: normal;
      font-weight: 800;
      line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
+
  }
 
  .span-dark {
-     color: #2E2F42;
+     color: var(--navyblue);
  }
 
- .span-withe {
-     color: #F4F4FD;
+ .span-white {
+     color: var(--cloud);
  }
 
- .navigation-link {
-     color: var(--navyblue, #2E2F42);
+ .nav {
+     list-style: none;
+ }
+
+ .navigation-item-link {
+     color: var(--navyblue);
      font-style: normal;
      font-weight: 500;
-     letter-spacing: 0.32px;
+     letter-spacing: 0.02em;
+     font-size: 16px;
+     line-height: 1.5;
+
  }
+
+ .navigation-item-link:hover {
+     color: var(--ocean);
+
+ }
+
 
 
 
  .addres-contacts {
-     color: var(--slate, #435549);
+     color: var(--slate);
      font-style: normal;
      font-weight: 400;
      line-height: 1.5;
      letter-spacing: 0.32px;
 
 
+ }
+
+ .addres-contacts:hover {
+     color: var(--ocean);
  }
 
 
@@ -64,14 +110,13 @@
  .main {}
 
  /* Hero section */
- .Hero {
-     background: var(--navyblue, #2E2F42);
+ .hero {
+     background: var(--navyblue);
 
  }
 
- .Hero-text {
-     color: var(--white, #FFF);
-     text-align: center;
+ .hero-text {
+     color: var(--white);
      font-size: 56px;
      font-weight: 700;
      line-height: 1.07;
@@ -79,26 +124,41 @@
  }
 
  .button {
-     color: var(--white, #FFF);
+     color: var(--white);
      font-style: normal;
      font-weight: 500;
      letter-spacing: 0.64px;
-     border-radius: 4px;
-     background: var(--iris, #4D5AE5);
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+     background: var(--iris);
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     cursor: pointer
 
+ }
+ .button:hover{
+    color: var(--ocean);
  }
 
  .button-filtre {
-     color: var(--iris, #4D5AE5);
-     text-align: center;
+     color: var(--iris);
      font-style: normal;
      font-weight: 500;
      letter-spacing: 0.64px;
+     font-size: 16px;
+     font-family: "Roboto", sans-serif;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     background: var(--cloud);
+     cursor: pointer;
+ }
+ .button-filtre:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
  }
 
  .button-filtre-withe {
-     color: var(--white, #FFF);
+     color: var(--white);
 
  }
 
@@ -112,7 +172,7 @@
  .benefits-list-item {}
 
  .benefits-list-subtitle {
-     color: var(--navyblue, #2E2F42);
+     color: var(--navyblue);
      font-size: 20px;
      font-weight: 500;
      line-height: 1.2;
@@ -125,8 +185,7 @@
  .progres-section {}
 
  .progres-title {
-     color: var(--navyblue, #2E2F42);
-     text-align: center;
+     color: var(--navyblue);
      font-size: 36px;
      font-weight: 700;
      line-height: 1.11;
@@ -141,11 +200,12 @@
  .images {}
 
  /* Team section */
- .team section {}
+ .team-section {
+    background-color: #F4F4FD
+ }
 
  .team-title {
-     color: var(--navyblue, #2E2F42);
-     text-align: center;
+     color: var(--navyblue);
      font-size: 36px;
      font-style: normal;
      font-weight: 700;
@@ -161,8 +221,7 @@
  .team-img {}
 
  .name {
-     color: var(--navyblue, #2E2F42);
-     text-align: center;
+     color: var(--navyblue);
      font-size: 20px;
      font-style: normal;
      font-weight: 500;
@@ -170,29 +229,35 @@
      letter-spacing: 0.4px;
  }
 
- .profession {
-     text-align: center;
- }
+ .profession {}
 
  /* card */
- .card-title {
-     color: var(--navyblue, #2E2F42);
+ .card-item-title {
+     color: var(--navyblue);
      font-size: 20px;
      font-style: normal;
      font-weight: 500;
      line-height: 1.2;
-     letter-spacing: 0.4px;
+     letter-spacing: 0.02em;
+ }
+ .card-list-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+
  }
 
 
  /* footer */
  .footer {
-     background: var(--navyblue, #2E2F42);
+     background: var(--navyblue);
+     
  }
 
  .link-logo {}
 
  .footer-text {
-     color: var(--cloud, #F4F4FD);
+     color: var(--cloud);
 
  }
